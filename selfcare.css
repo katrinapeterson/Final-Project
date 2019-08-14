@@ -1,0 +1,6 @@
+body {
+  background-image: url("pinkback.jpg");
+}
+#playlist1 { position: absolute; visibility: visible; left: 850px; top: 100px; z-index: 200; }
+#playlist2 { position: absolute; visibility: visible; left: 500px; top: 100px; z-index: 200; }
+#playlist3 { position: absolute; visibility: visible; left: 150px; top: 100px; z-index: 200; }
