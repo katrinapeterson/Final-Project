@@ -1,0 +1,49 @@
+h1 {
+  color: white;
+
+  font-family: "Georgia", Times, serif;
+}
+
+body {
+  background-image: url("blue.jpg");
+}
+/* h1 { text-align: center } */
+/* #h1 {position: absolute; visibility: visible; left: 850px; 100px; z-index:200} */
+h1 {
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px; */
+  font-size: 85px;
+  text-align: center;
+  font-family: 'LibreCaslonDisplayRegular'
+}
+a {
+  border-style: solid;
+border-width: 1px;
+
+  width: 80px;
+  height: 20px;
+  border: 15px solid white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -100px;
+
+}
+
+#selfcare {
+  border-style: solid;
+border-width: 5px;
+
+  width: 80px;
+  height: 20px;
+  border: 15px solid white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: 30px;
+}
