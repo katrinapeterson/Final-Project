@@ -5,7 +5,9 @@ h1 {
 }
 
 body {
-  background-image: url("blue.jpg");
+  background: url("blue.jpg") no-repeat center center fixed;
+  background-size: cover
+
 }
 /* h1 { text-align: center } */
 /* #h1 {position: absolute; visibility: visible; left: 850px; 100px; z-index:200} */
