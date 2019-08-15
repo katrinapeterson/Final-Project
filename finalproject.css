@@ -35,15 +35,24 @@ border-width: 30px;
   font-size: 50px;
   color: white;
 
+
 }
 
 #selfcare {
   border-style: solid;
+<<<<<<< HEAD
 border-width: 30px;
   font-size: 50px;
   width: 150px;
   height: 150px;
   border: 20px solid white;
+=======
+border-width: 5px;
+
+  width: 100px;
+  height: 40px;
+  border: 15px solid white;
+>>>>>>> e4463c340a7aa84c90b93a66aa48fd533addeda3
   position: fixed;
   top: 50%;
   left: 50%;
