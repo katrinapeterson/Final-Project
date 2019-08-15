@@ -20,6 +20,17 @@ h1 {
   top: 0px;
   z-index: 100;
 }
+#title {
+   /* position: absolute; visibility: visible; left: 100px; top: 5px; z-index: 200; */
+   text-align:center;
+   background-color: white;
+   width: 400px;
+   border: 8px solid pink;
+   /* padding: 20px; */
+   /* margin: 10px; */
+   margin-left: -55px;
+   height: 70px;
+}
 .btn {
   background-color: Snow
 ; /* Blue background */

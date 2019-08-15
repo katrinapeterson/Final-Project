@@ -1,11 +1,11 @@
 body {
-  background: url("whitemusicback.jpg") no-repeat center center fixed;
+  background: url("pinkleaf.webp") no-repeat center center fixed;
   /* background-repeat: no-repeat; */
   background-size: cover;
 }
-#white1 { position: absolute; visibility: visible; left: 850px; top: 150px; z-index: 200; }
-#white2 { position: absolute; visibility: visible; left: 500px; top: 150px; z-index: 200; }
-#white3 { position: absolute; visibility: visible; left: 150px; top: 150px; z-index: 200; }
+#med1 { position: absolute; visibility: visible; left: 850px; top: 150px; z-index: 200; }
+#med2 { position: absolute; visibility: visible; left: 500px; top: 150px; z-index: 200; }
+#med3 { position: absolute; visibility: visible; left: 150px; top: 150px; z-index: 200; }
 #title {
    /* position: absolute; visibility: visible; left: 100px; top: 5px; z-index: 200; */
    text-align:center;
@@ -34,7 +34,7 @@ h1 {
   background-color: Snow
 ; /* Blue background */
   border: none; /* Remove borders */
-  color: black; /* White text */
+  color: black; /* med text */
   padding: 24px 24x; /* Some padding */
   font-size: 16px; /* Set a font size */
   cursor: pointer; /* Mouse pointer on hover */
