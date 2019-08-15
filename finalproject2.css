@@ -1,0 +1,12 @@
+body {
+  background: url("green.jpg") no-repeat center center fixed;
+  background-size: cover
+
+}
+
+h2 {
+  font-size: 30px;
+  /* font-family: 'LibreCaslonDisplayRegular'; */
+   font-weight: normal;
+   font-style: normal;
+}
