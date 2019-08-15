@@ -12,21 +12,26 @@ body {
 /* h1 { text-align: center } */
 /* #h1 {position: absolute; visibility: visible; left: 850px; 100px; z-index:200} */
 h1 {
-  /* position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px; */
+  border-style: solid;
+  border-width: 50px;
+  border: 25px solid white;
+  padding: 30px;
+  margin: 50px;
+  margin-left: 375px;
+  width: 350px;
   font-size: 85px;
   text-align: center;
   font-family: 'LibreCaslonDisplayRegular'
+
+
 }
+
 a {
-  border-style: solid;
-border-width: 30px;
+  /* border-style: solid; */
+/* border-width: 30px; */
   width: 150px;
   height: 150px;
-  border: 20px solid white;
+  /* border: 20px solid white; */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -34,30 +39,21 @@ border-width: 30px;
   margin-left: -200px;
   font-size: 50px;
   color: white;
-
-
 }
 
-#selfcare {
-  border-style: solid;
-<<<<<<< HEAD
-border-width: 30px;
-  font-size: 50px;
-  width: 150px;
-  height: 150px;
-  border: 20px solid white;
-=======
-border-width: 5px;
+.Selfcare {
+/* border-style: solid;
+border-width: 30px; */
+ font-size: 50px;
+ width: 100px;
+ height: 40px;
+ top: 50%;
+ left: 50%;
+ margin-top: 100px;
+ margin-left: 30px;
+ color: White;
+}
 
-  width: 100px;
-  height: 40px;
-  border: 15px solid white;
->>>>>>> e4463c340a7aa84c90b93a66aa48fd533addeda3
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -10px;
-  margin-left: 30px;
-  color: White
-
+#learn {
+  margin-left: -200px;
 }
