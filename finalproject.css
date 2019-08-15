@@ -1,7 +1,7 @@
 h1 {
   color: white;
 
-  font-family: "Georgia", Times, serif;
+  /* font-family: "Georgia", Times, serif; */
 }
 
 body {
@@ -23,29 +23,32 @@ h1 {
 }
 a {
   border-style: solid;
-border-width: 1px;
-
-  width: 80px;
-  height: 20px;
-  border: 15px solid white;
+border-width: 30px;
+  width: 150px;
+  height: 150px;
+  border: 20px solid white;
   position: fixed;
   top: 50%;
   left: 50%;
   margin-top: -10px;
-  margin-left: -100px;
+  margin-left: -200px;
+  font-size: 50px;
+  color: white;
 
 }
 
 #selfcare {
   border-style: solid;
-border-width: 5px;
-
-  width: 80px;
-  height: 20px;
-  border: 15px solid white;
+border-width: 30px;
+  font-size: 50px;
+  width: 150px;
+  height: 150px;
+  border: 20px solid white;
   position: fixed;
   top: 50%;
   left: 50%;
   margin-top: -10px;
   margin-left: 30px;
+  color: White
+
 }
