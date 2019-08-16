@@ -42,10 +42,10 @@ a {
   color: white;
 }
 
-.Selfcare {
+/* .Selfcare {
 /* border-style: solid;
 border-width: 30px; */
- font-size: 50px;
+ /* font-size: 50px;
  width: 100px;
  height: 40px;
  top: 50%;
@@ -53,10 +53,94 @@ border-width: 30px; */
  margin-top: 100px;
  margin-left: 30px;
  color: White;
+} */
+#learn {
+  position: relative;
+  background-color: White;
+  border-style: solid;
+  border-color: LightPink;
+  font-size: 28px;
+  color: Black;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
 }
 
+#learn:after {
+  content: "";
+  background: White;
+  border-style: solid;
+  border-color: White;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -100px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#learn:active:after {
+  border-style: solid;
+  border-color: White;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
 #learn {
   margin-left: -200px;
+}
+#learn:hover {
+  background-color: Pink;
+  border-style: solid;
+  border-color: White;
+}
+#self {
+  position: relative;
+  background-color: White;
+  border-style: solid ;
+  border-color: LightPink;
+  font-size: 28px;
+  color: Black;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  left: 70%;
+}
+#self:after {
+  content: "";
+  background: Black;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -100px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 2s
+}
+#self:hover {background-color: Pink}
+
+#self:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#self{
+  /* margin-left: -1px; */
 }
 /* #selfcare {
   border-style: solid;
