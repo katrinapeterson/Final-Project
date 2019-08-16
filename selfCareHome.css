@@ -25,3 +25,49 @@ body {
     top: 200px;
 
 }
+
+img {
+  /* position: relative; */
+  font-size: 28px;
+  color: Black;
+  padding: 20px;
+  width: 360px;
+  /* text-align: center; */
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+img:after {
+  content: "";
+  background: White;
+  border-style: solid;
+  border-color: White;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -100px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+img:active:after {
+  border-style: solid;
+  border-color: White;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+img {
+  margin-left: 0px;
+}
+img:hover {
+  background-color: Pink;
+  border-style: solid;
+  border-color: White;
+}
