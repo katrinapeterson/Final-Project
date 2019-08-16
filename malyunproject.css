@@ -8,8 +8,9 @@ h1 {
 
 
 body {
-  background: url(claire.jpg) no-repeat center center fixed;
-  background-size: cover;
+  /* background: url(claire.jpg) no-repeat center center fixed;
+  background-size: cover; */
+  background-color: White;
 }
 
 
