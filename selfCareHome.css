@@ -49,17 +49,18 @@ h1 {
 }
 
 .butt {
-  font-size: 28px;
+  /* font-size: 28px;
   color: Black;
   padding: 20px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
-  cursor: pointer;
+  cursor: pointer; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-img:after {
+/* img:after {
   content: "";
   background: White;
   border-style: solid;
@@ -80,15 +81,15 @@ img:active:after {
   margin: 0;
   opacity: 1;
   transition: 0s
-}
+} */
  img {
   margin-left: 0px;
 }
-.butt:hover {
+/* .butt:hover {
   background-color: Pink;
   border-style: solid;
   border-color: White;
-}
+} */
 
 div {
   font-family: 'LibreCaslonDisplayRegular';
