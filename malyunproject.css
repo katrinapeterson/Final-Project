@@ -8,17 +8,19 @@ h1 {
 
 
 body {
-  /* background: url(claire.jpg) no-repeat center center fixed;
-  background-size: cover; */
-  background-color: White;
+  background: url(purple.jpg)
+
+
 }
 
 
 /* Style buttons */
+
 .btn {
-  background-color: #ffe6e6
+  border-radius: 100px;
+  border: 1px solid black;
+  background-color: Pink;
 ; /* Blue background */
-  border: none; /* Remove borders */
   color: black; /* White text */
   padding: 24px 24x; /* Some padding */
   font-size: 16px; /* Set a font size */
@@ -26,7 +28,6 @@ body {
   position:absolute;
   margin-top: -175px;
   margin-right: : 200px;
-    left: 202px;
+    left: 0px;
     top: 200px;
-
 }

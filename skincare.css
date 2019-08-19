@@ -16,6 +16,10 @@ h2{
   font-size: 30px;
   margin-top: 200px;
   font-family: 'LibreCaslonDisplayRegular';
+  /* margin-left: 75px; */
+  text-align: center;
+
+
 
 }
 
@@ -28,11 +32,34 @@ body {
    background-color: white;
    width: 800px;
    border: 8px solid pink;
-   /* padding: 20px; */
+   /* padding: 20px; */u
    /* margin: 10px; */
    margin-left: -55px;
    height: 70px;
 }
 #a{
   font-size: 25px;
+  font-family: 'LibreCaslonDisplayRegular';
+  margin-left: 175px;
+
 }
+h3{
+  font-size: 30px;
+  font-family: 'LibreCaslonDisplayRegular';
+  text-align: center;
+}
+.btn {
+  border-radius: 100px;
+  border: 1px solid black;
+  background-color: Pink;
+; /* Blue background */
+  color: black; /* White text */
+  padding: 24px 24x; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  position:absolute;
+  margin-top: -175px;
+  margin-right: : 200px;
+    left: 0px;
+    top: 200px;
+  }
