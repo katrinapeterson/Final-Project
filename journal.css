@@ -6,15 +6,10 @@ h1 {
    font-style: normal;
 }
 
-
 body {
-  /* background: url(claire.jpg) no-repeat center center fixed;
-  background-size: cover; */
-  background-color: White;
+  background-color: #ffe6e6;
 }
 
-
-/* Style buttons */
 .btn {
   background-color: #ffe6e6
 ; /* Blue background */
