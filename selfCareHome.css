@@ -14,7 +14,7 @@ body {
 .btn {
   border-radius: 100px;
   border: 1px solid black;
-  background-color: #ffe6e6
+  background-color: Pink;
 ; /* Blue background */
   color: black; /* White text */
   padding: 24px 24x; /* Some padding */
@@ -60,7 +60,7 @@ img:active:after {
   margin: 0;
   opacity: 1;
   transition: 0s
-} 
+}
  img {
   margin-left: 0px;
 }
