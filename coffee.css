@@ -1,0 +1,68 @@
+#title {
+  text-align:center;
+  background-color: white;
+  width: 400px;
+  border: 8px solid pink;
+  /* padding: 20px; */
+  /* margin: 10px; */
+  margin-left: -55px;
+  height: 70px;
+}
+body {
+  background: url("blueback.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.btn {/* Blue background */
+  border-radius: 100px;
+  border: 1px solid black;
+  background-color: Pink;
+  color: black; /* White text */
+  padding: 24px 24x; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  position:absolute;
+  margin-top: -175px;
+  margin-right: : 200px;
+    left: 0px;
+    top: 200px;
+}
+.dot {
+  border-radius: 300px;}
+h1 {
+  font-size: 60px;
+  text-align:center;
+  font-family: 'LibreCaslonDisplayRegular';
+  font-weight: normal;
+  font-style: normal;
+  position: absolute;
+  visibility: visible;
+  left: 500px;
+  top: 0px;
+  z-index: 100;
+}
+.ingri{
+  /* text-align: center; */
+  font-size: 25px;
+  font-family: 'LibreCaslonDisplayRegular';
+  font-weight: normal;
+  font-style: normal;
+  position: absolute;
+  visibility: visible;
+  z-index: 100;
+  margin-left: 150px;
+  margin-top: 2px
+  /* margin-top: 50px; */
+}
+h2{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 32px;
+  font-family: 'LibreCaslonDisplayRegular';
+  margin-top: 180px;
+}
+#coffee {
+  height:800px;
+  width:100%;
+
+
+}
