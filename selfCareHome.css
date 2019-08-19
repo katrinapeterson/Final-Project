@@ -89,3 +89,7 @@ img:active:after {
   border-style: solid;
   border-color: White;
 }
+
+div {
+  font-family: 'LibreCaslonDisplayRegular';
+}

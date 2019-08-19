@@ -53,3 +53,9 @@ h1 {
 .dot {
   border-radius: 300px;
 }
+h2 {
+  font-family: 'LibreCaslonDisplayRegular';
+}
+div {
+  font-family: 'LibreCaslonDisplayRegular';
+}
