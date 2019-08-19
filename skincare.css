@@ -1,0 +1,38 @@
+h1 {
+  font-size: 60px;
+  text-align:center;
+  font-family: 'LibreCaslonDisplayRegular';
+  font-weight: normal;
+  font-style: normal;
+  position: absolute;
+  visibility: visible;
+  left: 275px;
+  top: 0px;
+  z-index: 100;
+
+}
+
+h2{
+  font-size: 30px;
+  margin-top: 200px;
+  font-family: 'LibreCaslonDisplayRegular';
+
+}
+
+body {
+  background: url(yellow.jpg);
+}
+#title {
+   /* position: absolute; visibility: visible; left: 100px; top: 5px; z-index: 200; */
+   text-align:center;
+   background-color: white;
+   width: 800px;
+   border: 8px solid pink;
+   /* padding: 20px; */
+   /* margin: 10px; */
+   margin-left: -55px;
+   height: 70px;
+}
+#a{
+  font-size: 25px;
+}
