@@ -4,6 +4,7 @@ h1 {
   /* font-family: 'LibreCaslonDisplayRegular'; */
    font-weight: normal;
    font-style: normal;
+   /* margin-top: 0; */
 }
 
 body {
@@ -11,9 +12,10 @@ body {
 }
 
 .btn {
+  border-radius: 100px;
+  border: 1px solid black;
   background-color: #ffe6e6
 ; /* Blue background */
-  border: none; /* Remove borders */
   color: black; /* White text */
   padding: 24px 24x; /* Some padding */
   font-size: 16px; /* Set a font size */
@@ -21,19 +23,16 @@ body {
   position:absolute;
   margin-top: -175px;
   margin-right: : 200px;
-    left: 202px;
+    left: 0px;
     top: 200px;
 
 }
 
-img {
-  /* position: relative; */
+.butt {
   font-size: 28px;
   color: Black;
   padding: 20px;
-  width: 360px;
-  /* text-align: center; */
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
@@ -54,7 +53,6 @@ img:after {
   opacity: 0;
   transition: all 0.8s
 }
-
 img:active:after {
   border-style: solid;
   border-color: White;
@@ -62,11 +60,11 @@ img:active:after {
   margin: 0;
   opacity: 1;
   transition: 0s
-}
-img {
+} 
+ img {
   margin-left: 0px;
 }
-img:hover {
+.butt:hover {
   background-color: Pink;
   border-style: solid;
   border-color: White;
