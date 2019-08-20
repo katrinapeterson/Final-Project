@@ -33,3 +33,145 @@ body {
     left: 0px;
     top: 200px;
 }
+
+
+/* Container needed to position the button. Adjust the width as needed */
+body {
+  background: url("blueback.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  position: relative;
+  width: 5%;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 40%;
+  /* height: auto; */
+  height: 30%;
+  top: 70%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 8px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2.5px;
+}
+#title {
+   /* position: absolute; visibility: visible; left: 100px; top: 5px; z-index: 200; */
+   text-align:center;
+   background-color: white;
+   width: 400px;
+   border: 8px solid pink;
+   /* padding: 20px; */
+   /* margin: 10px; */
+   margin-left: 420px;
+   height: 70px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align:center;
+  font-family: 'Crimson Text', serif;
+;
+  font-weight: normal;
+  font-style: normal;
+  /* position: absolute; */
+  visibility: visible;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+
+
+
+.btn {
+  border-radius: 100px;
+  border: 1px solid black;
+  background-color: Pink;
+; /* Blue background */
+  color: black; /* White text */
+  padding: 24px 24x; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  position:absolute;
+  margin-top: -175px;
+  margin-right: : 200px;
+    left: 0px;
+    top: 200px;
+
+}
+
+.butt {
+  /* font-size: 28px;
+  color: Black;
+  padding: 20px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* img:after {
+  content: "";
+  background: White;
+  border-style: solid;
+  border-color: White;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -100px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+img:active:after {
+  border-style: solid;
+  border-color: White;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+} */
+ img {
+  margin-left: 0px;
+}
+/* .butt:hover {
+  background-color: Pink;
+  border-style: solid;
+  border-color: White;
+} */
+
+div {
+  font-family: 'Crimson Text', serif;
+;
+}
+
+
+/* .container .btn:hover {
+  background-color: LightBlue;
+} */
+.butt{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
