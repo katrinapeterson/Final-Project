@@ -1,7 +1,7 @@
 body {
   /* background: url("blue.jpg") no-repeat center center fixed;
   background-size: cover */
-background-color: #b57252;
+background: url("yellow.jpg");
 
 }
 
@@ -73,7 +73,7 @@ h1 {
 }
 
 p{
-color: white;
+color: black;
 font-size: 21px;
 font-family: 'Crimson Text', serif;
 ;
