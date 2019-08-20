@@ -31,7 +31,8 @@ body {
 h1 {
   font-size: 60px;
   text-align:center;
-  font-family: 'LibreCaslonDisplayRegular';
+  font-family: 'Crimson Text', serif;
+;
   font-weight: normal;
   font-style: normal;
   position: absolute;
@@ -43,7 +44,8 @@ h1 {
 .ingri{
   /* text-align: center; */
   font-size: 25px;
-  font-family: 'LibreCaslonDisplayRegular';
+  font-family: 'Crimson Text', serif;
+;
   font-weight: normal;
   font-style: normal;
   position: absolute;
@@ -57,7 +59,8 @@ h2{
   text-align: center;
   margin-top: 80px;
   font-size: 32px;
-  font-family: 'LibreCaslonDisplayRegular';
+  font-family: 'Crimson Text', serif;
+;
   margin-top: 180px;
 }
 #coffee {

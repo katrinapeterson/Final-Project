@@ -8,7 +8,8 @@ background-color: #b57252;
 h2 {
 
   font-size: 32px;
-  /* font-family: 'LibreCaslonDisplayRegular'; */
+  /* font-family: 'Crimson Text', serif;
+; */
    font-weight: normal;
    font-style: normal;
 }
@@ -60,7 +61,8 @@ h2 {
 h1 {
   font-size: 60px;
   text-align:center;
-  font-family: 'LibreCaslonDisplayRegular';
+  font-family: 'Crimson Text', serif;
+;
   font-weight: normal;
   font-style: normal;
   /* position: absolute; */
@@ -73,5 +75,6 @@ h1 {
 p{
 color: white;
 font-size: 21px;
-font-family: 'LibreCaslonDisplayRegular';
+font-family: 'Crimson Text', serif;
+;
 }

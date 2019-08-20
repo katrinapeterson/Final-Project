@@ -18,7 +18,7 @@ body {
 h1 {
   font-size: 60px;
   text-align:center;
-  font-family: 'LibreCaslonDisplayRegular';
+  font-family: 'Crimson Text', serif;
   font-weight: normal;
   font-style: normal;
   /* position: absolute; */
@@ -92,5 +92,6 @@ img:active:after {
 } */
 
 div {
-  font-family: 'LibreCaslonDisplayRegular';
+  font-family: 'Crimson Text', serif;
+;
 }

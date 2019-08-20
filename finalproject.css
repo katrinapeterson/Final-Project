@@ -21,7 +21,8 @@ h1 {
   width: 350px;
   font-size: 85px;
   text-align: center;
-  font-family: 'LibreCaslonDisplayRegular';
+  font-family: 'Crimson Text', serif;
+;
   display: flex;
   postion: fixed;
   align-items: center;
