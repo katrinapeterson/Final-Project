@@ -16,6 +16,39 @@ function displaytext() {
   }
 }
 
+function hide() {
+  var x = document.getElementById("mentalhealth");
+  x.style.display = "none";
+}
+
+function hide2() {
+  var x = document.getElementById("important");
+  x.style.display = "none";
+}
+
+
+function hide3() {
+  var x = document.getElementById("help");
+  x.style.display = "none";
+}
+
+
+function hide4() {
+  var x = document.getElementById("need");
+  x.style.display = "none";
+}
+
+
+function hide5() {
+  var x = document.getElementById("day");
+  x.style.display = "none";
+}
+
+function hide6() {
+  var x = document.getElementById("pink");
+  x.style.display = "none";
+}
+
 function important() {
   var x = document.getElementById("important");
   if (x.style.display === "none") {
